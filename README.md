@@ -36,5 +36,19 @@ Single identity
 
 ## Solution
 
+```
+SHOW DATABASES LIKE 'JPA_DB_02';
+
+USE JPA_DB_02;
+
+SHOW TABLES;
+
+SHOW CREATE TABLE Department_1;
+
+SELECT id, companyName, departmentName, description FROM Department_1;
+
+SELECT COUNT(*) FROM Department_1;
+```
+
 <img width="1919" height="762" alt="image" src="https://github.com/user-attachments/assets/c55f0619-e09c-419f-82a0-19c0d68365ae" />
 
